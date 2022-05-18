@@ -1,0 +1,144 @@
+div, .button, input[type=text],[type=password], [type=number], [type=search], [type=date], select {
+  font-family: "Papyrus", "Copperplate", Fantasy;
+}
+
+.mainDiv {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 90px;
+  width: 70%;
+  margin: auto;
+  background : #E4D1B9;
+}
+
+.add-edit-div {
+  text-align: center;
+  border: 2px solid brown;
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  background : #BE8C63;
+}
+
+.member-movie {
+  text-align: center;
+  border: 2px solid brown;
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  background : #BE8C63;
+}
+
+.MoviesWatchedByMember {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 70%;
+  margin: auto;
+  background : #A97155;
+}
+
+.SubscriptionsWatched {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 60%;
+  margin: auto;
+  background : #A97155;
+}
+
+.AddSubscription {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 70%;
+  margin: auto;
+  background : #A97155;
+}
+
+.button {
+  background-color: #31333110;
+  border: none;
+  color: rgb(139, 22, 22);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #181a18;
+  color: white;
+}
+
+.add-member-button{
+  background-color: #31333110;
+  border: none;
+  color: rgb(139, 22, 22);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-family: "Papyrus", "Copperplate", Fantasy;
+}
+
+.add-member-button:hover {
+  background-color: #181a18;
+  color: white;
+}
+
+
+input[type=text],[type=password], [type=number] {
+  width: 40%;
+  padding: 5px 15px;
+  margin: 2px 2;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+  background-color :#E4D1B9;
+  
+}
+
+input[type=search] {
+  width: 30%;
+  padding: 9px 15px;
+  margin: 2px 2;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+  background-color :#E4D1B9;
+  color : blue;
+}
+
+[type=date] {
+  width: 34%;
+  padding: 4px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #A97155;
+}
+
+select {
+  width: 50%;
+  padding: 4px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #A97155;
+}
+
+.movieicon, .loginicon {
+  font-size: 1.5em;
+}
+
+.plusbutton {
+  border-radius: 50%;
+}
